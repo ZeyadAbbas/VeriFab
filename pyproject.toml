@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "verifab"
+version = "0.1.0"
+description = "A sample Python package"
+authors = [{ name = "Zeyad Abbas", email = "zeyadabbas238@gmail.com" }]
+license = { file = "LICENSE" }
+dependencies = []
+
+[tool.setuptools]
+packages = ["verifab"]
